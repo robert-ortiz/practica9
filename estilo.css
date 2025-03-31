@@ -1,0 +1,80 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+}
+
+p{
+    color: blue;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(10, 100, 50);
+}
+
+.otra_caja{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,255,0.5);
+    /*position: fixed;
+    top:0;*/
+}
+
+.una_caja_mas{
+    width: 150px;
+    height: 150px;
+    background-color: #1ecbe1;
+}
+
+.capibara{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 68%, 63%);
+    border-radius: 10%;
+}
+
+*{
+    color: green;
+    font-weight: bolder;
+}
+
+#soy_unico{
+    width: 250px;
+    height: 50px;
+    background-color: aqua;
+}
+
+a[title]{
+    color: red;
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+}
+
+input:disabled{
+    background-color: rgb(70, 69, 69);
+}
+
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+.capibara1, .capibara2, .capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+
+.padre_p{
+color: red;
+}
